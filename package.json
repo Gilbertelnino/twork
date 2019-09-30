@@ -1,0 +1,26 @@
+{
+  "name": "twork",
+  "version": "1.0.0",
+  "description": "restful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gilbertelnino/twork.git"
+  },
+  "author": "gilbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gilbertelnino/twork/issues"
+  },
+  "homepage": "https://github.com/Gilbertelnino/twork#readme",
+  "dependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "express": "^4.17.1"
+  }
+}
