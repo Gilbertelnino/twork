@@ -13,7 +13,7 @@ Teamwork is an ​internal social network for organizations’ employees. The go
 6. at the end of each post there is `share` once you hit it you will decide to share article other colligues
 7. at the end of each post also there is `comment` section your can leave comment to the post you read
 8. you can view recent post first by click right side and make decision to read it
-9. you can also view special article you want by searching it in search box
+
 
 #for more information about our app visit our pivotal track stories here https://www.pivotaltracker.com/n/projects/2400682
 
