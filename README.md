@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/Gilbertelnino/teamwork.svg?branch=master)](https://travis-ci.org/Gilbertelnino/teamwork)
 # Teamwork app
 #### let take time and explain you what exactly teamwork is?
 Teamwork is an ​internal social network for organizations’ employees. The goal of this                           application is to facilitate more interaction between colleagues and facilitate team bonding
