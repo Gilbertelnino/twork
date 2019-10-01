@@ -39,15 +39,10 @@ nav ul li a{
     font-size:16px;
     text-decoration: none;
   }
-  .textarea-form{
+  .help-form {
     margin-left: 450px;
-    padding: 100px;
-  }
-  .write-post {
-    width: 50%;
-  }
-  .post-field {
-    width: 50%;
+    padding: 100px
+
   }
   textarea{
     margin-top: 20px;
@@ -56,17 +51,17 @@ nav ul li a{
     font-size: 25px;
     border: both;
     resize: none
-    
   }
-  #add-post{
+  .send-btn{
     margin-left: 30px;
     background-color: brown;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     color: white;
-}
-#add-post:hover, #add-post:active{
-  background: green;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+  }
+  .send-btn:hover, .send-btn:active {
+    background: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ 

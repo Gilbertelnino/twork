@@ -22,5 +22,8 @@
     "@babel/node": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.0"
   }
 }
