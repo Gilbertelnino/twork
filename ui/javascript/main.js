@@ -10,13 +10,11 @@ const signinForm = (e)=>{
     
     if(username.value.trim() === ''){
         message.innerHTML = 'please fill the field';
-        message.style.backgroundColor = 'red';
-        message.style.color= 'white';
+        message.style.color= 'red';
         message.style.fontSize = '16px';
     } else if (password.value.trim()===''){
         message.innerHTML = 'please fill the field';
-        message.style.backgroundColor = 'red';
-        message.style.color= 'white';
+        message.style.color= 'red';
         message.style.fontSize = '16px';
     }
     else{

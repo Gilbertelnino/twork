@@ -1,5 +1,5 @@
 import express from 'express';
-import signup from './server/routes/signup';
+import signup from './routes/signup';
 
 const app = express();
 
