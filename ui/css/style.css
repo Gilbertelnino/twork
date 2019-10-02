@@ -89,6 +89,7 @@ p a{
     text-decoration:none;
 }
 p a:hover {
+    color: white;
     background: green;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
