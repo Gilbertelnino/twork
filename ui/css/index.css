@@ -1,12 +1,107 @@
-*{
-    list-style: none;
-    text-decoration: none;
+
+ *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
-body{
-    background-color: #f3f3f3
+header{
+   width: 100% 
 }
+
+.container{
+    background: brown;
+    width: 100%
+}
+.title{
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+} 
+.container .title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px
+}
+
+ul{
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+  li {
+    display: inline
+  }
+  
+  li a {
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 18px
+  }  
+  li a:hover {
+    color: white;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#article-1{
+    margin-top: 10px;
+} 
+#article-1 h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 4px 3px 8px black;
+    padding: 0 20%;
+    text-align: center
+}
+#article-1 figure img{
+    width: 40%;
+    padding: 2% 30%
+}
+#article-1 figure blockquote{
+    width: 35%;
+    padding-left: 30%;
+    
+}
+#article-1 figure a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: justify
+    
+
+}
+#asidebar{
+    margin-top: 10px;
+} 
+#asidebar h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 4px 3px 8px black;
+    padding: 0 20%;
+    text-align: center
+}
+#asidebar figure img{
+    width: 40%;
+    padding: 2% 30%
+}
+#asidebar figure blockquote{
+    width: 35%;
+    padding-left: 30%
+}
+#asidebar figure a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align:justify
+}
+@media only screen and (min-width: 1024px) {
+    
 header{
     background-color: brown;
     color:#ffffff;
@@ -23,6 +118,7 @@ header{
   }
 .title h1{
     margin:0;
+    font-size: 20px;
 }
 nav{
     float:right;
@@ -41,7 +137,7 @@ nav ul li a{
     font-size:16px;
 }
 #article-1{
-    width: 40%;
+    width: 50%;
 }
 #article-1 h1{
     color: white;
@@ -50,25 +146,21 @@ nav ul li a{
     text-decoration: underline;
     font-weight: bold;
     margin-top: 20px;
-    margin-left: 300px;
-    text-shadow: 4px 3px 8px black
+    text-shadow: 4px 3px 8px black;
 }
 #article-1 figure {
-    height: 30%
+    height: 30%;
 }
 #article-1 figure img {
     width: 20%;
-    margin-left: 180px;
     margin-top: 20px;
 }
 #article-1 figure a{
     font-size: 16px;
-    display: block;
-    float: right;
-    margin-left: 100px;
 }
 blockquote{
-    margin-top: -55px;
+    margin-top: -75px;
+    margin-left: 140px
 }
 
 .ob1:hover{
@@ -78,11 +170,11 @@ figure a:hover{
     cursor: pointer;
     color: blue;
 }
-aside{
+#asidebar{
     float: right;
-    width: 30%;
-    margin-top: -410px;
-    margin-right: 200px
+    width: 40%;
+    margin-right: 30px;
+    margin-top: -710px;
 }
 
 #asidebar h1{
@@ -92,32 +184,31 @@ aside{
     text-decoration: underline;
     font-weight: bold;
     margin-top: 20px;
-    text-shadow: 4px 3px 8px black
+    text-shadow: 4px 3px 8px black;
 }
-
 #asidebar figure {
-    height: 30%
+    height: 30%;
 }
-
 #asidebar figure img {
-    width: 20%;
-    margin-left: 10px;
+    width: 25%;
     margin-top: 20px;
 }
 #asidebar figure a{
     font-size: 16px;
-    display: block;
-    float: right;
+}
+blockquote{
+    margin-top: -85px;
+    margin-left: 160px;
+    border: none;
 }
 
-#asidebar blockquote{
-    margin-top: -55px;
-    margin-right: 40px;
-}
 .ob1:hover{
     cursor: pointer;
+    color:blue
+
 }
 figure a:hover{
     cursor: pointer;
     color: blue;
+}
 }
