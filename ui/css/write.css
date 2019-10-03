@@ -5,20 +5,165 @@
   body{
     background: white;
   }
-  
+  header{
+    background-color: brown;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+.title{
+    float:left;
+  }
+.title h1{
+    margin:0;
+}
+nav{
+    float:right;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+nav ul li a{
+    color:#ffffff;
+    text-transform: uppercase;
+    font-size:16px;
+    text-decoration: none;
+  }
+  .labels{
+    font-family: sans-serif;
+    padding: 10px 30px;
+  }
+  .textarea-form{
+    margin-left: 450px;
+    padding: 100px;
+  }
+  .write-post {
+    width: 50%;
+  }
+  .post-field {
+    width: 50%;
+  }
   textarea{
     margin-top: 20px;
     margin-left: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border: 1.5px solid #111;
+    font-size: 25px;
+    border: both;
+    resize: none
     
   }
   #add-post{
     margin-left: 30px;
-    background-color: aqua;
+    background-color: brown;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
-  
+    color: white;
+}
+#add-post:hover, #add-post:active{
+  background: green;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width: 550px){
+header{
+    background-color: brown;
+    padding-top:10px;
+}
+.container{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+.title{
+    text-align: center;
+ 
   }
+.title h1{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white
+}
+nav{
+    float:right;
+}
+nav ul li{
+    display:inline;
+    padding: 0px 8px 0 8px;
+}
+nav ul li a{
+    color:#ffffff;
+    text-transform: capitalize;
+    font-size:16px;
+    text-decoration: none;
+  }
+  .textarea-form{
+    margin-left: 10px;
+    padding: 90px;
+  }
+  .write-post {
+    width: 60%;
+  }
+  .post-field {
+    width: 60%;
+  }
+  textarea{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+  }
+  #add-post{
+    margin-left: 30px;
+    background-color: brown;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: white;
+}
+.labels{
+  margin-right: -87993px;
+}
+#add-post:hover, #add-post:active{
+  background: green;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+}
+@media only screen and (min-width: 550px){
+  .textarea-form{
+    margin-left: 10px;
+    padding: 250px;
+    width: 80%
+  }
+  textarea{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    
+    
+  }
+  #add-post{
+    margin-left: 30px;
+    background-color: brown;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+#add-post:hover, #add-post:active{
+  background: green;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+}

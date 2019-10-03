@@ -8,11 +8,27 @@
     <title>write</title>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <div class="title" >
+                <h1>Teamwork</h1>
+            </div>
+            <nav> 
+                <ul>
+                    <li><a href="app.html">Home</a></li>
+                    <li><a href="help.html">help</a></li>
+                    <li><a href="index.html">logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <article>
         <section>
-            <form action="app.html" method="post">
-                <textarea name="textarea" class="write-post" cols="40" rows="2" placeholder="write title"></textarea><br>
-                <textarea name="post" class="post-field" cols="40" rows="5" placeholder="write post"></textarea><br>
+            <form action="app.html" method="post" class="textarea-form">
+                <label for="text" class="labels">Title</label><br>
+                <textarea name="textarea" class="write-post" cols="40" id="text" rows="2" placeholder="write title here"></textarea><br>
+                <label for="post" class="labels">Post</label><br>
+                <textarea name="post" id="post" class="post-field" cols="40" rows="5" placeholder="write post"></textarea><br>
                 <button id="add-post">Post</button>
             </form>
         </section>
