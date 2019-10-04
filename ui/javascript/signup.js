@@ -8,18 +8,15 @@ const signupForm = (e)=>{
    
     if(newUsername.value.trim() ===''){
         error.innerHTML = 'please all fill the field';
-        error.style.backgroundColor = 'red';
-        error.style.color= 'white';
+        error.style.color= 'red';
         error.style.fontSize = '16px';
     } else if(newEmail.value.trim()===''){
         error.innerHTML = 'please all fill the field';
-        error.style.backgroundColor = 'red';
-        error.style.color= 'white';
+        error.style.color= 'red';
         error.style.fontSize = '16px';
     } else if (newPassword.value.trim() === ''){
         error.innerHTML = 'please fill all the field';
-        error.style.backgroundColor = 'red';
-        error.style.color= 'white';
+        error.style.color= 'red';
         error.style.fontSize = '16px';
 }
 else{

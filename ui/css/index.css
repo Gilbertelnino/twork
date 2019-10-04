@@ -1,268 +1,214 @@
-*{
-    list-style: none;
-    text-decoration: none;
+
+ *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
-body{
-    background-color: #f3f3f3
+header{
+   width: 100% 
 }
-header {
-    height: 70px;
+
+.container{
+    background: brown;
+    width: 100%
 }
 .title{
-    display: block;
     margin: 0 auto;
+    display: block;
+    width: fit-content;
+} 
+.container .title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px
+}
+
+ul{
+    margin: 0 auto;
+    display: block;
     width: fit-content;
 }
-.title h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: brown;
-}
-
-nav ul {
-    display: block;
-    margin: 0 auto;
-    width: fit-content
-}
-nav ul li {
-    display: inline-block;
-    float: left;
-    padding: 0 16px,
-
-}
-nav ul li a{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    font-size: 16px;
-    display: block;
-    text-decoration: underline;
-}
-.heading{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 8px
-
-}
-article p{
-    font-family: Arial, Helvetica, sans-serif;
-    word-spacing: 5px; 
-    line-height: 1;
-    margin-top: 8px;
-    margin-left: 10px
-}
-.share-msg{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 5px
-}
-.share-btn{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;  
-}
-i{
-    margin-top: 10px;
-    margin-left: 10px
-
-}
-.comment-area{
-    margin-left: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    border: #f3f3f3 solid 4px;
-}
-.comment-btn{  
-    background-color: #4CAF50; 
+  li {
+    display: inline
+  }
+  
+  li a {
     color: white;
     text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    margin-left: 10px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 18px
+  }  
+  li a:hover {
+    color: white;
+    background-color: green;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+#article-1{
+    margin-top: 10px;
+} 
+#article-1 h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 4px 3px 8px black;
+    padding: 0 20%;
+    text-align: center
 }
-.comment-btn:hover{
+#article-1 figure img{
+    width: 40%;
+    padding: 2% 30%
+}
+#article-1 figure blockquote{
+    width: 35%;
+    padding-left: 30%;
+    
+}
+#article-1 figure a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: justify
+    
+
+}
+#asidebar{
+    margin-top: 10px;
+} 
+#asidebar h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 4px 3px 8px black;
+    padding: 0 20%;
+    text-align: center
+}
+#asidebar figure img{
+    width: 40%;
+    padding: 2% 30%
+}
+#asidebar figure blockquote{
+    width: 35%;
+    padding-left: 30%
+}
+#asidebar figure a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align:justify
+}
+@media only screen and (min-width: 1024px) {
+    
+header{
+    background-color: brown;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+.title{
+    float:left;
+  }
+.title h1{
+    margin:0;
+    font-size: 20px;
+}
+nav{
+    float:right;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+nav ul li a{
+    color:#ffffff;
+    text-transform: uppercase;
+    font-size:16px;
+}
+#article-1{
+    width: 50%;
+}
+#article-1 h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 4px 3px 8px black;
+}
+#article-1 figure {
+    height: 30%;
+}
+#article-1 figure img {
+    width: 20%;
+    margin-top: 20px;
+}
+#article-1 figure a{
+    font-size: 16px;
+}
+blockquote{
+    margin-top: -75px;
+    margin-left: 140px
+}
+
+.ob1:hover{
     cursor: pointer;
-    background-color: red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+figure a:hover{
+    cursor: pointer;
+    color: blue;
+}
+#asidebar{
+    float: right;
+    width: 40%;
+    margin-right: 30px;
+    margin-top: -710px;
+}
+
+#asidebar h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 4px 3px 8px black;
+}
+#asidebar figure {
+    height: 30%;
+}
+#asidebar figure img {
+    width: 25%;
+    margin-top: 20px;
+}
+#asidebar figure a{
+    font-size: 16px;
+}
+blockquote{
+    margin-top: -85px;
+    margin-left: 160px;
+    border: none;
+}
+
+.ob1:hover{
+    cursor: pointer;
+    color:blue
 
 }
-@media screen and (min-width: 768px) {
-    .title{
-        float: left;
-        margin-top: 20px;
-        margin-left: 10px
-    }
-    nav{
-        float: right;
-        margin-right: 10px;
-        
-    
-    }
-    nav ul li a{
-        margin-top: 5px;
-        font-size: 25px;
-        padding: 20px 10px
-    }
-    .heading{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 8px
-    
-    }
-    article p{
-        font-size: 20px;
-    }
-    .share-msg{
-        font-size: 25px;
-        margin-top: 10px
-    }
-    .share-btn{
-        font-size: 25px; 
-    }
-    i{
-        margin-top: 15px;
-        font-size: 20px
-    
-    }
-    .comment-area{
-        font-size: 26px;
-        
-    }
-    .comment-btn{  
-        background-color: brown; 
-        font-size: 25px
-    }
-    
-  }
-  @media screen and (min-width: 1024px) {
-    .title{
-        float: left;
-        margin-top: 20px;
-        margin-left: 40px;
-        font-size: 25px
-    }
-    nav{
-        float: right;
-        margin-right: 10px;
-        
-    
-    }
-    nav ul li a{
-        margin-top: 5px;
-        font-size: 30px;
-        padding: 20px 10px
-    }
-    .heading{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 20px;
-        font-size: 40px
-    
-    }
-    article p{
-        font-size: 30px;
-        text-align: center
-    }
-    .share-msg{
-        font-size: 30px;
-        margin-top: 10px
-    }
-    .share-btn{
-        font-size: 35px; 
-    }
-    .share-btn:hover{
-        cursor: pointer;
-        background: #4CAF50;
-    }
-    i{
-        margin-top: 25px;
-        font-size: 30px
-    
-    }
-    .comment-area{
-        font-size: 36px;
-        
-    }
-    .comment-btn{  
-        background-color: brown; 
-        font-size: 45px
-    }
-    .comment-btn:hover{
-        cursor: pointer;
-        background: #4CAF50
-    }
-    
-  }
-  @media screen and (min-width: 1600px) {
-    .title{
-        float: left;
-        margin-top: 20px;
-        margin-left: 10px;
-        font-size: 45px
-    }
-    nav{
-        float: right;
-        margin-right: 10px;
-        
-    
-    }
-    nav ul li a{
-        margin-top: 5px;
-        font-size: 45px;
-        padding: 20px 10px
-    }
-    .heading{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 8px
-    
-    }
-    article p{
-        font-size: 20px;
-    }
-    .share-msg{
-        font-size: 25px;
-        margin-top: 10px
-    }
-    .share-btn{
-        font-size: 25px; 
-    }
-    i{
-        margin-top: 15px;
-        font-size: 20px
-    
-    }
-    .comment-area{
-        font-size: 26px;
-        
-    }
-    .comment-btn{  
-        background-color: brown; 
-        font-size: 25px
-    }
-    
-  }
-  #sidebar{
-      float: right;
-      width: 30%;
-      margin-top: -510px
-
-  }
-  #sidebar h2{
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 30px;
-      font-weight:bold;
-      text-decoration: underline;
-
-  }
-  #sidebar li{
-      margin-top: 10px;
-      line-height: 20px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 25px;
-      text-transform: capitalize;
-  }
-  .article-cols{
-      float: left;
-      width: 65%;
-  }
+figure a:hover{
+    cursor: pointer;
+    color: blue;
+}
+}
