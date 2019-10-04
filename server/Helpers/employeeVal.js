@@ -1,14 +1,14 @@
-import Hipi from '@hapi/joi';
+import Hapi from '@hapi/joi';
 
 const signupValidation = (newEmployee) => {
-  const schema = hapi.object({
-    firstName: hapi.string().required(),
-    lastName: hapi.string().required(),
-    email: hapi.string().required(),
-    password: hapi.string().required(),
-    gender: hapi.string().required(),
-    department: hapi.string().required(),
-    address: hapi.string().required(),
+  const schema = Hapi.object({
+    firstName: Hapi.string().required(),
+    lastName: Hapi.string().required(),
+    email: Hapi.string().required(),
+    password: Hapi.string().required(),
+    gender: Hapi.string().required(),
+    department: Hapi.string().required(),
+    address: Hapi.string().required(),
   });
   return schema.validate(newEmployee);
 };
