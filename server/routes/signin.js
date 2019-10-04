@@ -1,11 +1,11 @@
 import express from 'express';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
-import signupVal from '../Helpers/employeeVal';
+import signinval from '../modals/signin';
 
 const router = express.Router();
 router.post('/', (req, res, next) => {
-    signupVal.find({ email: req.body.email}, (err, user) => {
+    signinval.find({ email: req.body.email}, (err, user) => {
         if(err){
             res.status(500).json({
                 status: 500,
