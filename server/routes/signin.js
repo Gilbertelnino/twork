@@ -5,7 +5,7 @@ import signupVal from '../Helpers/employeeVal';
 
 const router = express.Router();
 router.post('/', (req, res, next) => {
-    signupVal.findOne({email: req.body.email}, (err, user) => {
+    signupVal.find({ email: req.body.email}, (err, user) => {
         if(err){
             res.status(500).json({
                 status: 500,
@@ -34,5 +34,6 @@ router.post('/', (req, res, next) => {
         }
     });
     });
+    next();
 });
 export default router;
