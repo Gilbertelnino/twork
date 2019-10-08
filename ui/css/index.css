@@ -138,6 +138,7 @@ nav ul li a{
 }
 #article-1{
     width: 50%;
+    float: left
 }
 #article-1 h1{
     color: white;
@@ -174,7 +175,7 @@ figure a:hover{
     float: right;
     width: 40%;
     margin-right: 30px;
-    margin-top: -749px;
+    
 }
 
 #asidebar h1{
